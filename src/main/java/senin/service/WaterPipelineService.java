@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import static java.util.Objects.requireNonNullElse;
 
 public class WaterPipelineService {
+
     private List<PipeLine> pipeLines;
     private Set<Vertex> visitedVertices;
     private Set<Vertex> unvisitedVertices;

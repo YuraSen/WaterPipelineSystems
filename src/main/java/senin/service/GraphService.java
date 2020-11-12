@@ -19,7 +19,7 @@ public class GraphService {
     }
 
     public void start() {
-        DataBaseUtility.createPipelineTable();
+        DataBaseUtility.createTableForPipeline();
 
         List<PipeLine> pipeLines = FileParserUtility.readPipelineCSV();
         savePipeLineToDB(pipeLines);
@@ -47,7 +47,7 @@ public class GraphService {
 
     private void savePipeLineToDB(List<PipeLine> pipeLines) {
         pipeLines.forEach(pipeLine ->
-                DataBaseUtility.insertPipeLine(pipeLine.getStart().getNumber(), pipeLine.getEnd().getNumber(),
+                DataBaseUtility.insertPipeLineToTable(pipeLine.getStart().getNumber(), pipeLine.getEnd().getNumber(),
                         pipeLine.getLength()));
     }
 

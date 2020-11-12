@@ -3,6 +3,7 @@ package senin.dto;
 import java.util.List;
 
 public class Graph {
+
     private final List<Vertex> vertices;
     private final List<PipeLine> pipeLines;
 

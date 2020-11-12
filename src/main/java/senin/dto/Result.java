@@ -1,6 +1,7 @@
 package senin.dto;
 
 public class Result {
+
     private final boolean isExist;
     private final int minLength;
 

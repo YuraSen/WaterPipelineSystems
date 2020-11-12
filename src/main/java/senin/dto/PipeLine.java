@@ -1,6 +1,7 @@
 package senin.dto;
 
 public class PipeLine {
+
     private final Vertex start;
     private final Vertex end;
     private final int length;

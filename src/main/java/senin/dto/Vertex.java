@@ -3,6 +3,7 @@ package senin.dto;
 import java.util.Objects;
 
 public class Vertex implements Comparable<Vertex>{
+
     private final int number;
 
     public Vertex(int number) {

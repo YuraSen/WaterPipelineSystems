@@ -1,6 +1,7 @@
 package senin.dto;
 
 public class Route {
+
     private final int idA;
     private final int idB;
 

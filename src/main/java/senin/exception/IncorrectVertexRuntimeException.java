@@ -1,6 +1,7 @@
 package senin.exception;
 
 public class IncorrectVertexRuntimeException extends RuntimeException {
+
     public IncorrectVertexRuntimeException() {
     }
 

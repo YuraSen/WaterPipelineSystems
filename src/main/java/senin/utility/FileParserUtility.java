@@ -21,6 +21,7 @@ import static com.opencsv.ICSVParser.DEFAULT_SEPARATOR;
 
 
 public class FileParserUtility {
+
     public static final String PIPELINE_SYS_CSV = "src/main/resources/pipelineSys.csv";
     public static final String VERTEX_CSV = "src/main/resources/vertex.csv";
     public static final int TITLE_LINE = 1;
